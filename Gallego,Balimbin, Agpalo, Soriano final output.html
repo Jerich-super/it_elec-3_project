@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            background-color: #7C00FE;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .topnav, .bottomnav {
+            background-color: #f4f4f4;
+            overflow: hidden;
+            text-align: center;
+        }
+        .topnav a, .bottomnav a {
+            color: #FF6C22;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .topnav a:hover, .bottomnav a:hover {
+            background-color: #FF6C22;
+            color: #dfdddd;
+        }
+        .main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+        h2 {
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+            <h1>BARANGAY STO. DOMINGO, QUIRINO, ISABELA <br><h2>WEBSITE PAGE</h2></h1>
+    </div>
+    <div class="topnav">
+        <a href="profile.html" target="viewframe">PROFILE</a>
+        <a href="officials.html" target="viewframe">OFFICIALS</a>
+        <a href="brgyPic.html" target="viewframe">PICTURES</a>
+        <a href="History.html" target="viewframe">HISTORY</a>
+        <a href="location.html" target="viewframe">LOCATION</a>
+        <a href="help.html" target="viewframe">?</a>
+        
+    </div>
+    <div class="main">
+        <iframe src="viewFrame.html" name="viewframe"></iframe>
+    </div>
+    <div class="bottomnav">
+        <a href="creator.html" target="viewframe">Creator</a>
+        <a href="termsOfservice.html" target="viewframe">Terms</a>
+    </div>
+</body>
+</html>
